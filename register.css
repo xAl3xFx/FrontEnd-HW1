@@ -1,0 +1,74 @@
+body, html {
+    height: 100%;
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.card-wrapper{
+    margin: auto;
+    background: white;
+    max-width: 32rem;
+    width: 90%;
+    border-radius: 8px;
+}
+
+.card-content{
+    padding: 2.5rem;
+}
+
+.card-content h1{
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.card-content h2{
+    margin: 0 0 3rem 0;
+    font-weight: normal;
+    color: #838592;
+}
+
+.card-content input{
+    border: none;
+    border-bottom: 1px solid #C7CAEF;
+    width: 100%;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card-content input:focus{
+    border-bottom: 1px solid blue;
+    outline: none;
+}
+
+.card-content button{
+    border-radius: 15px;
+    background: #54BDD6;
+    border: none;
+    color: #fff;
+    max-width: 10rem;
+    padding: .5rem 2.5rem;
+    display: block;
+    margin-top: 3rem;
+}
+
+.card-content a{
+    text-decoration: none;
+    color: blue;
+}
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.block-center{
+    display: block;
+    text-align: center;
+}
+
+@media only screen and (max-width: 870px){
+    .card-wrapper{
+        min-width: 90%;
+    }
+}
