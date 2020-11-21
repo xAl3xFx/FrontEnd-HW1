@@ -1,0 +1,67 @@
+.profile-wrapper{
+    display: flex;
+    margin: 0 .25rem auto auto;
+    max-width: 18rem;
+    background: white;
+    flex-direction: column;
+    width: 17.5%;
+}
+
+.profile-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile-wrapper > footer{
+    background: #f6f7fd;
+    display: flex;
+    padding: .5rem;
+    height: 3.75rem;
+}
+
+.label-gray{
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: gray;
+}
+
+.label-turquoise{
+    font-size: 1.125rem;
+    color: #54BDD6;
+    font-weight: bold;
+}
+
+.flex-start{
+    margin: auto .7rem auto 0;
+}
+
+.flex-end{
+    margin: auto 0 auto auto;
+}
+
+.profile-content img{
+    margin: auto;
+    width: 5.25rem;
+    height: 5.25rem;
+}
+
+.profile-content label{
+    font-weight: bolder;
+}
+.btn-log-out{
+    border: #54BDD6 1px solid;
+    color: #54BDD6;
+    font-weight: bold;
+    background: transparent;
+    border-radius: 1rem;
+    padding: .4rem .6rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 890px){
+    .profile-wrapper{
+        min-width: 90%;
+        margin: auto;
+    }
+}

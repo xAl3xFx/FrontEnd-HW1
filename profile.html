@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="profile.css" />
+    <link rel="stylesheet" href="feed.css" />
+</head>
+<body>
+    <div id="search-box-wrapper">
+            <div class="flex-start">
+                <h1 class="logo-text">Flutter</h1>
+            </div>
+            <div id="search-box" class="flex-end">
+                <input placeholder="Search" />
+            </div>
+    </div>
+    <main>
+        <div class="profile-wrapper">
+            <div class="profile-content">
+                <img src="profile.png"/>
+                <label>Alex Petrov</label>
+            </div>
+            <footer>
+                <div class="flex-start">
+                    <label class="label-gray">Posts</label>
+                    <label class="label-turquoise">1</label>
+                </div>
+                <div class="flex-start">
+                    <label class="label-gray">Reactions</label>
+                    <label class="label-turquoise">7</label>
+                </div>
+                <div class="flex-end">
+                    <button onclick="location.href='login.html'" class="btn-log-out">Log out</button>
+                </div>
+            </footer>
+        </div>
+        <div class="feed-wrapper">
+            <div class="new-post">
+                <img src="profile.png"/>
+                <input placeholder="Say something">
+            </div>
+        </div>
+    </main>
+</body>
+</html>

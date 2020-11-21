@@ -38,7 +38,6 @@ body, html {
 
 .card-content input:focus{
     border-bottom: 1px solid blue;
-    outline: none;
 }
 
 .card-content button{
@@ -50,6 +49,7 @@ body, html {
     padding: .5rem 2.5rem;
     display: block;
     margin-top: 3rem;
+    cursor: pointer;
 }
 
 .card-content a{
@@ -57,17 +57,7 @@ body, html {
     color: blue;
 }
 
-.flex-end{
-    display: flex;
-    justify-content: flex-end;
-}
-
-.block-center{
-    display: block;
-    text-align: center;
-}
-
-@media only screen and (max-width: 870px){
+@media only screen and (max-width: 890px){
     .card-wrapper{
         min-width: 90%;
     }
