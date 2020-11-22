@@ -14,12 +14,25 @@ body{
     margin: 0;
 }
 
+#search-box{
+    position: absolute;
+    align-items: center;
+    right: 1rem;
+}
+
 #search-box input{
     width: 100%;
     padding: .5rem;
     border: 1px solid gray;
     border-radius: 2rem;
     background: #f6f7fd;
+}
+
+#search-box img{
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    right: .5rem;
 }
 
 main{
@@ -29,6 +42,7 @@ main{
 
 .feed-wrapper{
     display: flex;
+    flex-direction: column;
     margin: 0 auto auto .25rem;
     max-width: 55rem;
     background: white;
@@ -40,7 +54,7 @@ main{
     background: #f6f7fd;
     height: 3rem;
     width: 100%;
-    padding: .5rem 2rem;
+    padding: .5rem 1.5rem;
     align-items: center;
 }
 
@@ -59,6 +73,97 @@ main{
 
 .new-post input::placeholder{
     color: #54BDD6;
+}
+
+.post{
+    display: flex;
+    background: white;
+    width: 100%;
+    padding: 1rem;
+    border-top: 1px solid lightgray;
+}
+
+.post-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.post-profile{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.post header{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.post-username{
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.post-time{
+    color: gray;
+    margin-left: .5rem;
+}
+
+.post-time span{
+    position: relative;
+    left: -.8rem;
+}
+
+.x-icon{
+    width: 1rem;
+    height: 1rem;
+    margin-left: auto;;
+}
+
+.post-content{
+    display: flex;
+    flex-direction: column;
+    word-break: break-word;
+    padding: .5rem 1rem;
+}
+
+.post footer{
+    display: flex;
+    padding: .5rem 1rem;
+}
+.text-box{
+    position: relative;
+    margin-left: auto;
+    width: 100%;
+}
+
+.text-box img{
+    position: absolute;
+    right: 1rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+}
+
+
+.likes{
+    display: flex;
+    margin-right: 3rem;
+    align-items: center;
+}
+
+.dislikes{
+    display: flex;
+    align-items: center;
+}
+
+.likes img, .dislikes img{
+    margin-right: .2rem;
+    width: 1.2rem;
+    height: 1.2rem;
 }
 
 @media only screen and (max-width: 890px){
