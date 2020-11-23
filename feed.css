@@ -1,6 +1,7 @@
 #search-box-wrapper{
     width: 100%;
     display: flex;
+    justify-content: space-evenly;
     background: white;
     padding: .5rem 2rem;
 }
@@ -15,9 +16,7 @@ body{
 }
 
 #search-box{
-    position: absolute;
     align-items: center;
-    right: 1rem;
 }
 
 #search-box input{
@@ -32,7 +31,7 @@ body{
     position: absolute;
     width: 1rem;
     height: 1rem;
-    right: .5rem;
+    right: 3rem;
 }
 
 main{
