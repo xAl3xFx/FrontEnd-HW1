@@ -38,7 +38,6 @@ body, html {
 
 .card-content input:focus{
     border-bottom: 1px solid blue;
-    : none;
 }
 
 .card-content button{
@@ -52,13 +51,11 @@ body, html {
     margin-top: 3rem;
     margin-bottom: 1rem;
     cursor: pointer;
-    e: none;
 }
 
 .card-content a{
     text-decoration: none;
     color: blue;
-    e: none;
 }
 
 @media only screen and (max-width: 890px){
